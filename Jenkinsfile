@@ -7,7 +7,7 @@ pipeline {
              }
              post {
                  always {
-                     jiraSendBuildInfo site: 'example.atlassian.net'
+                     jiraSendBuildInfo site: 'talejandro97.atlassian.net'
                  }
              }
          }
@@ -38,4 +38,4 @@ pipeline {
             }
          }
      }
- }
+ }  
