@@ -12,9 +12,6 @@ pipeline {
              }
          }
          stage('Deploy - Staging') {
-             when {
-                 branch 'TM-3'
-             }
              steps {
                  echo 'Deploying to Staging from TM-3...'
              }
