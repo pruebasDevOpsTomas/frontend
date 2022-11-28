@@ -6,7 +6,7 @@ pipeline {
                 echo  'build done'
             }
         }
-        stage('deployments') {
+        /*stage('deployments') {
             parallel {
                 stage('deploy to stg') {
                     steps {
@@ -19,6 +19,6 @@ pipeline {
                     }
                 }
             }
-        }
+        }*/
     }
 }
